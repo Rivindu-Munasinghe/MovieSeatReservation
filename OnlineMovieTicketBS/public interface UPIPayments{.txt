@@ -1,0 +1,21 @@
+public interface UPIPayments{
+    public void payMoney();
+    public void getScratchCard();
+    //public void cashBackCreditBal();
+}
+
+public interface CashBackManager{
+    public void cashBackCreditBal();
+}
+
+public class GooglePay implements UPIPayments,CashBackManager{
+    public void payMoney();
+    public void getScratchCard();
+    public void cashBackCreditBal();
+}
+
+public class PayTM implements UPIPayments{
+    public void payMoney();
+    public void getScratchCard();
+}
+

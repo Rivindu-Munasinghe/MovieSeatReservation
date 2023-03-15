@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Customers>
+  <Customer>
+    <uid>9</uid>
+    <uname>Rivindu</uname>
+    <email>thirasaramunasinghe@gmail.com</email>
+    <phone>94766033029</phone>
+    <age>23</age>
+    <gender>gender</gender>
+  </Customer>
+  <Customer>
+    <uid>11</uid>
+    <uname>Thisaru</uname>
+    <email>thisaruheshan99@gmail.com</email>
+    <phone>94763127856</phone>
+    <age>23</age>
+    <gender>gender</gender>
+  </Customer>
+  <Customer>
+    <uid>13</uid>
+    <uname>Kanishka</uname>
+    <email>kanishkabernard@gmail.com</email>
+    <phone>94768640102</phone>
+    <age>22</age>
+    <gender>gender</gender>
+  </Customer>
+</Customers>

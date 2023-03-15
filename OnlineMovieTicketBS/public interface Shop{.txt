@@ -1,0 +1,33 @@
+public interface Shop{
+    public void BuyItems();
+    public void SellItems();
+}
+
+public interface AdvancedStuff(){
+    public void selfService();
+    public void creditCardPayment();
+}
+
+public class RetailShop implements Shop{
+    public void BuyItems(){
+        System.out.println("Buy Items");
+    }
+    public void SellItems(){
+        System.out.println("Sell Items");
+    }
+}
+
+public class SuperMarket implements Shop,AdvancedStuff{
+    public void BuyItems(){
+        System.out.println("Buy Items");
+    }
+    public void SellItems(){
+        System.out.println("Sell Items");
+    }
+    public void selfService(){
+        System.out.println("Self Service");
+    }
+    public void creditCardPayment(){
+        System.out.println("Credit Card Payment");
+    }
+}
